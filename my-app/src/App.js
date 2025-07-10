@@ -13,7 +13,32 @@ export default function App() {
           <Dictionary defaultKeyword="happy" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Nina Nkhwashu</small>
+          <small>
+            This project was coded by{" "}
+            <a
+              href="https://www.linkedin.com/in/ninankhwashu/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Nina Nkhwashu
+            </a>{" "}
+            and is{" "}
+            <a
+              href="https://github.com/ninankhwashu/dictionary-search-engine"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              open-sourced on GitHub
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://wordtionary.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              hosted on Netlify
+            </a>
+          </small>
         </footer>
       </div>
     </div>
